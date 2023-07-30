@@ -33,11 +33,11 @@ def get_channel_id(channel_url):
 
     return channel_ids
 
-
+# See channel IDs when executing
 print(get_channel_id([
-    'https://www.youtube.com/@TravisMedia/', 
-    'https://www.youtube.com/@turningthetables',
-    'https://www.youtube.com/@thisdayinai'
+    'CHANNEL_1',
+    'CHANNEL_2',
+    'CHANNEL_3'
     ]))
 
 
