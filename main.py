@@ -65,9 +65,9 @@ if __name__ == '__main__':
     
     # List of channel ids to be notified about
     channel_ids = get_channel_id([
-        'https://www.youtube.com/@TravisMedia/',
-        'https://www.youtube.com/@turningthetables',
-        'https://www.youtube.com/@thisdayinai'
+        'CHANNEL_1',
+        'CHANNEL_2',
+        'CHANNEL_3'
      ])
 
     vid_link = None
